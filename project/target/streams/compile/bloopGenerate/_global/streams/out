@@ -1,4 +1,4 @@
-[debug] [sum-two-lowest-positive-build] Classpath dependencies List()
-[debug] [sum-two-lowest-positive-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'sum-two-lowest-positive-build' to 'C:\Users\Danilo Kaltner\Documents\www\scala\sum-two-lowest-positive\project\.bloop\sum-two-lowest-positive-build.json'
-[success] Generated .bloop\sum-two-lowest-positive-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[sum-two-lowest-positive-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[sum-two-lowest-positive-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'sum-two-lowest-positive-build' to 'C:\Users\Danilo Kaltner\Documents\www\scala\sum-two-lowest-positive\project\.bloop\sum-two-lowest-positive-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop\sum-two-lowest-positive-build.json[0m

@@ -1,5 +1,6 @@
+import org.scalatest._
 import org.scalatest.flatspec.AnyFlatSpec
-import org.scalatest.matchers.must.Matchers
+import matchers.should._
 
 class LowIntSumTest extends AnyFlatSpec with Matchers {
 
@@ -13,8 +14,9 @@ class LowIntSumTest extends AnyFlatSpec with Matchers {
 
   tests.foreach {
     case (input, expected) =>
+      val result = LowIntSum.sumTwoSmallestUsingSorting(input)
       s"sumTwoSmallest($input)" should s"return $expected" in {
-        LowIntSum.sumTwoSmallest(input) should be (expected)
+        result should be (expected)
       }
   }
 }

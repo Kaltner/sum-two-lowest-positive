@@ -1,4 +1,6 @@
 object LowIntSum extends App {
 
-  def sumTwoSmallest(numbers: List[Int]): Int = ???
+  def sumTwoSmallestUsingSorting(numbers: List[Int]): Int = {
+    numbers.sorted.take(2).sum
+  }
 }
