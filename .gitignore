@@ -1,3 +1,8 @@
 .bloop/
 .metals/
 .vscode/
+
+bin/
+project/
+target/
+build/
