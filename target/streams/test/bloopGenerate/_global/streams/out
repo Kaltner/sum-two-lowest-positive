@@ -1,0 +1,4 @@
+[debug] [sum-two-lowest-positive-test] Classpath dependencies List()
+[debug] [sum-two-lowest-positive-test] Dependencies from configurations List(sum-two-lowest-positive)
+[debug] Bloop wrote the configuration of project 'sum-two-lowest-positive-test' to 'C:\Users\Danilo Kaltner\Documents\www\scala\sum-two-lowest-positive\.bloop\sum-two-lowest-positive-test.json'
+[success] Generated .bloop\sum-two-lowest-positive-test.json
