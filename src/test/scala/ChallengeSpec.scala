@@ -14,9 +14,12 @@ class LowIntSumTest extends AnyFlatSpec with Matchers {
 
   tests.foreach {
     case (input, expected) =>
-      val result = LowIntSum.sumTwoSmallestUsingSorting(input)
-      s"sumTwoSmallest($input)" should s"return $expected" in {
-        result should be (expected)
+      s"sumTwoSmallestUsingSorting($input)" should s"return $expected" in {
+        LowIntSum.sumTwoSmallestUsingSorting(input) should be (expected)
+      }
+
+      s"sumTwoSmallestUsingMinPriorityQueue($input)" should s"return $expected" in {
+        LowIntSum.sumTwoSmallestUsingMinPriorityQueue(input) should be (expected)
       }
   }
 }
